@@ -1,0 +1,99 @@
+/* Main content styling */
+.main-content {
+
+  padding: 20px;
+  background-color: #e8e1f0;
+  min-height: calc(100vh - 73px);
+  
+  
+}
+
+/* Main content heading styling */
+.main-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Login form styling */
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Button styling */
+button {
+  border-radius: 20px;
+}
+
+/* Custom Join In button styling */
+.custom-join-in-btn {
+  background-color: #6f42c1; 
+  border-color: #6f42c1; 
+  color: white; 
+}
+
+.custom-join-in-btn:hover {
+  background-color: #5936a0; 
+  border-color: #5936a0;
+}
+
+/* Social icon styling */
+.social-icon {
+  font-size: 1.5rem;
+}
+
+/* Google icon color */
+.google-icon {
+  color: #DB4437;
+  position: relative;
+  right: 65px;
+}
+
+/* Facebook icon color */
+.facebook-icon {
+  color: #4267B2;
+  position: relative;
+  right: 60px;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .main-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+}
+
+/* continue btn styling */
+.continue-btn{
+  border-radius: 10px;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.continue-btn:hover{
+  background-color: #5936a0;
+  border-color: #5936a0;
+}
+
+/* google btn styling */
+.google{
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* facebook btn styling */
+.facebook{
+  font-weight: 600;
+
+  border-radius: 10px;
+  border: 1px solid black;
+}
